@@ -29,8 +29,8 @@ Github repo: https://github.com/Historypin/historypin.
 | google-cloud-storage  | 1.10  | Apache-2.0  |
 
 ## Languages, Frameworks and Tools
-Python v2.7
-jQuery v2.1.4
+- Python v2.7
+- jQuery v2.1.4
 jQuery UI v2.1.4
 Angular v1.4.5
 MySQL v5.7
