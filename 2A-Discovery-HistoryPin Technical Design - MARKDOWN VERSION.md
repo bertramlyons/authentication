@@ -82,71 +82,106 @@ application/models/sql/stories.py
 # Code Structure 
 _What follows is an annotated folder-level summary of the codebase._
 
-/app_api
-	Mixture of Angular and django serving dynamic content to the website
-	/lib
-		Python libraries including ElastiSearch, BeautifulSoup, QS Parser
-
-	/templates/base
-		
-		/cards
-			Various templates for different cards including person, places, users, etc.
-		
-/comments
-			Templates for comments
-		
-/dialogs
-			Templates for video comments, video, and sharing dialogs
-		
-/explore
-			Templates for exploring collections or tours
-		
-/panels
-			Components for the explore toolbar, quick actions , and location and date suggestions
-		
-		/pin
-			Pin components
-		
-		/places
-			Data structure for places
-		
-		/projects
-			Project and project banner components
+	/app_api
 	
-		/search
-			Search components and data structure
+		Mixture of Angular and django serving dynamic content to the website
+		
+		/lib
+			Python libraries including ElastiSearch, BeautifulSoup, QS Parser
 
-		/user
-			User account components including change password, deleting and editing accounts
-	
-		/users
-			Login and registration html
-	
-		/views
-			Main views
+		/templates/base
+		
+			/cards
+				
+				Various templates for different cards including person, places, users, etc.
+		
+	/comments
 
-/app_explore
-	Django views
-/application
-	Legacy application containing models, views, controllers and helpers.
-/debug_toolbar
-	Debugging toolbar for django
-/gae_mini_profiler
-	Google App Engine min profiler
-/locale
-	Language support
-/main
-	Main application entry point
-/openid
-	Identity layer on top of OAuth 2.0
-/resources
-	Miscellaneous resources for compression, encoding, images, etc.
-/sqlparse
-Python helpers for the data access layer
-/tests
-	Unit tests 
-/tweepy
-	Library for accessing the Twitter API
+		Templates for comments
+		
+	/dialogs
+	
+		Templates for video comments, video, and sharing dialogs
+		
+	/explore
+	
+		Templates for exploring collections or tours
+		
+	/panels
+	
+		Components for the explore toolbar, quick actions , and location and date suggestions
+		
+			/pin
+			
+				Pin components
+		
+			/places
+			
+				Data structure for places
+		
+			/projects
+			
+				Project and project banner components
+	
+			/search
+			
+				Search components and data structure
+
+			/user
+			
+				User account components including change password, deleting and editing accounts
+	
+			/users
+			
+				Login and registration html
+	
+			/views
+			
+				Main views
+
+	/app_explore
+	
+		Django views
+	
+	/application
+	
+		Legacy application containing models, views, controllers and helpers.
+
+	/debug_toolbar
+	
+		Debugging toolbar for django
+
+	/gae_mini_profiler
+	
+		Google App Engine min profiler
+
+	/locale
+	
+		Language support
+
+	/main
+	
+		Main application entry point
+	
+	/openid
+	
+		Identity layer on top of OAuth 2.0
+
+	/resources
+	
+		Miscellaneous resources for compression, encoding, images, etc.
+
+	/sqlparse
+
+		Python helpers for the data access layer
+
+	/tests
+	
+		Unit tests 
+
+	/tweepy
+	
+		Library for accessing the Twitter API
 
 # Licenses
 ## Pillow (6.1.0)
