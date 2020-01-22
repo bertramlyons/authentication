@@ -46,23 +46,37 @@ Vimeo
 # Application Components
 ## Views
 app_api/templates/base/cards/person.tpl
+
 app_api/templates/base/cards/place.tpl
+
 app_api/templates/base/cards/project.tpl
+
 app_api/templates/base/dialogs/comment-video.tpl
+
 app_api/templates/base/dialogs/sharing.tpl
+
 app_explore/templates/base/fragments/header.html
+
 app_explore/templates/base/fragments/footer.html
+
 ## Controllers
 application/controllers/default/home.py 
+
 application/controllers/default/pages.py
+
 application/controllers/default/projects.py
+
 application/controllers/default/services.py
 
 ## Models (and Data Access)
 application/models/sql/collections.py
+
 application/models/sql/homepage.py
+
 application/models/sql/places.py
+
 application/models/sql/projects.py
+
 application/models/sql/stories.py
 
 # Code Structure 
