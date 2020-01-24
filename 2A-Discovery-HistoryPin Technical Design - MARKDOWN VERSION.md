@@ -8,11 +8,11 @@ Github repo: https://github.com/Historypin/historypin.
 - Production:
 	- Hosting - Digital Ocean
 		- Web server - nginx
-			- Linux - Ubuntu
-			- 8gb memory
-			- 160gb
-			- CPU
-			- Database - MySQL 5.6
+		- Linux - Ubuntu
+		- 8gb memory
+		- 160gb
+		- CPU
+		- Database - MySQL 5.6
 - Development:
 	- Docker
 
@@ -83,9 +83,9 @@ application/models/sql/stories.py
 # Code Structure 
 _What follows is an annotated folder-level summary of the codebase._
 
-	/app_api	Mixture of Angular and django serving dynamic content to the website
+	/app_api			Mixture of Angular and django serving dynamic content to the website
 		
-		/lib	Python libraries including ElastiSearch, BeautifulSoup, QS Parser
+		/lib			Python libraries including ElastiSearch, BeautifulSoup, QS Parser
 
 		/templates/base
 		
@@ -113,27 +113,27 @@ _What follows is an annotated folder-level summary of the codebase._
 	
 			/views		Main views
 
-	/app_explore	Django views
+	/app_explore			Django views
 	
-	/application	Legacy application containing models, views, controllers and helpers.
+	/application			Legacy application containing models, views, controllers and helpers.
 
-	/debug_toolbar	Debugging toolbar for django
+	/debug_toolbar			Debugging toolbar for django
 
-	/gae_mini_profiler	Google App Engine min profiler
+	/gae_mini_profiler		Google App Engine min profiler
 
-	/locale		Language support
+	/locale				Language support
 
-	/main		Main application entry point
+	/main				Main application entry point
 	
-	/openid		Identity layer on top of OAuth 2.0
+	/openid				Identity layer on top of OAuth 2.0
 
-	/resources	Miscellaneous resources for compression, encoding, images, etc.
+	/resources			Miscellaneous resources for compression, encoding, images, etc.
 
-	/sqlparse	Python helpers for the data access layer
+	/sqlparse			Python helpers for the data access layer
 
-	/tests		Unit tests 
+	/tests				Unit tests 
 
-	/tweepy		Library for accessing the Twitter API
+	/tweepy				Library for accessing the Twitter API
 
 # Licenses
 ## Pillow (6.1.0)
