@@ -6,15 +6,15 @@ Github repo: https://github.com/Historypin/historypin.
 
 # Infrastructure
 - Production:
-- Hosting - Digital Ocean
-- Web server - nginx
-- Linux - Ubuntu
-- 8gb memory
-- 160gb
-- CPU
-- Database - MySQL 5.6
+	- Hosting - Digital Ocean
+		- Web server - nginx
+			- Linux - Ubuntu
+			- 8gb memory
+			- 160gb
+			- CPU
+			- Database - MySQL 5.6
 - Development:
-- Docker
+	- Docker
 
 # Dependencies
 ## Packages
@@ -31,18 +31,19 @@ Github repo: https://github.com/Historypin/historypin.
 ## Languages, Frameworks and Tools
 - Python v2.7
 - jQuery v2.1.4
-jQuery UI v2.1.4
-Angular v1.4.5
-MySQL v5.7
-Grunt (unknown version)
+- jQuery UI v2.1.4
+- Angular v1.4.5
+- MySQL v5.7
+- Grunt (unknown version)
 
 ## External Dependencies
-AWS CDN
-Google Cloud Storage
-Google Maps
-Soundcloud
-YouTube
-Vimeo
+- AWS CDN
+- Google Cloud Storage
+- Google Maps
+- Soundcloud
+- YouTube
+- Vimeo
+
 # Application Components
 ## Views
 app_api/templates/base/cards/person.tpl
